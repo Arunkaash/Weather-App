@@ -1,3 +1,3 @@
 # Weather-App
-Fully functional weather app, I use html , css,  js and a lot of interesting things like animation, weather type background image etc.
+Fully functional and responsive  weather app, I use html , css,  js and a lot of interesting things like animation, Animated background w.r.t Weather etc.
 project Hosting Link - https://arunkaash.github.io/Weather-App/
