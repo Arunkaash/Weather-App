@@ -108,6 +108,7 @@ body{
 #footer h4{
     margin:10px;
     color: rgba(240, 248, 255, 0.568);
+    font-size: 15px;
     
 }
 #sun{
@@ -164,3 +165,44 @@ body{
     opacity: 0.8;
     letter-spacing: 1px;
 }
+@media only screen and (max-width: 480px) {
+    .body{
+    position: relative;
+    width: 250px;
+    height: 400px;
+    
+}
+.searchbox{
+    margin-top: 30px;
+    margin-left: 25px;
+    width: 200px;
+}
+#weatherCondition .fas{
+    font-size: 2rem;
+
+}
+#weatherCondition {
+    display: inline-block;
+    margin: 20px 110px;
+    
+}
+.information{
+    position: absolute;
+    bottom: 20px;
+    padding: 10px;
+    z-index:4;
+}
+.information h1,h2,h3,p{
+    text-align: center;
+    margin-left: 30px;
+}
+#weatherType{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+#footer h4{
+    margin:10px;
+    font-size: 10px;
+}
+}
+
