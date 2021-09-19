@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("./images/bg.jpg");
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    font-family: 'Nunito', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.body{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    margin-top: 100px;
+    /* background-color: #95b7dd; */
+    background: url("https://source.unsplash.com/random?sky");
+    overflow: hidden;
+    /* box-shadow: 5px 10px 18px #888888; */
+    -webkit-box-shadow: 0 0 5px 2px rgba(109, 106, 106, 0.658);
+    -moz-box-shadow: 0 0 5px 2px rgba(122, 114, 114, 0.493);
+    box-shadow: 0 0 5px 2px rgba(238, 238, 229, 0.37);
+    
+}
+.wave{
+    opacity: 0.2;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    background: #ffff;
+    width: 50rem;
+    height: 50rem;
+    margin-left: -25rem;
+    margin-right: -25rem;
+    transform-origin:50% 48%;
+    border-radius: 43%;
+    animation: drift 3000ms infinite linear;
+    z-index: 1;
+    
+
+}
+.wave1{
+     opacity: 0.2;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    background:#ffff;
+    width: 50rem;
+    height: 50rem;
+    margin-left: -25rem;
+    margin-right: -25rem;
+    transform-origin:50% 48%;
+    border-radius: 43%;
+    animation: drift 4000ms infinite linear;
+    z-index: 2;
+}
+.wave2{
+    /* border: 1px solid green; */
+     opacity: 0.2;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    background: #ffff;
+    width: 50rem;
+    height: 50rem;
+    margin-left: -25rem;
+    margin-right: -25rem;
+    transform-origin:50% 48%;
+    border-radius: 43%;
+    animation: drift 6000ms infinite linear;
+    z-index: 3;
+}
+#weatherCondition {
+    /* border: 1px solid green; */
+    display: inline-block;
+    margin: 30px 160px;
+    
+}
+@keyframes drift{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.information{
+    position: absolute;
+    bottom: 40px;
+    /* width: 100%; */
+    /* height: %; */
+    padding: 50px;
+    z-index:4;
+}
+.information h1,h2,h3,p{
+    text-align: center;
+    margin-left: 50px;
+}
+#footer h4{
+    margin:10px;
+    color: rgba(240, 248, 255, 0.568);
+    
+}
+#sun{
+    
+    animation: rotates 3s linear infinite alternate;
+}
+@keyframes rotates{
+    from{
+        transform: translate(-0.5rem);
+    }
+    to{
+        transform: translate(0rem);
+
+    }
+}
+#weatherCondition .fas{
+    font-size: 4rem;
+    animation: fas-anime 3s linear infinite alternate;
+}
+@keyframes fas-anime{
+    from{
+        transform: scale(0.8);
+
+    }
+    to{
+        transform: scale(1.2);
+    }
+}
+.locationcity{
+    font-size: 30px;
+    font-weight: bold;
+}
+.temp{
+    font-size: 35px;
+    font-weight: bold;
+}
+.minmaxtemp{
+    font-size: 15px;
+    font-weight: lighter;
+}
+#dateTime{
+    font-size: 15px;
+    font-weight: lighter;
+}
+.searchbox{
+    margin-top: 80px;
+    margin-left: 100px;
+    opacity: 0.8;
+}
+#weatherType{
+    color: #ffff;
+    margin-left: -15px;
+    margin-top: -10px;
+    opacity: 0.8;
+    letter-spacing: 1px;
+}
