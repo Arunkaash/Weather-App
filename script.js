@@ -105,27 +105,27 @@ function showWeatherReport(weather){
     // weather icon and image
      if(weatherType.textContent == 'Clear') {
             document.getElementById('weatherCondition').innerHTML =`<i class="fas fa-sun fa-4x" style="color: #ffb142;"></i>`;
-            document.getElementById('body').style.backgroundImage = "url('https://source.unsplash.com/random?sky,sun')";
+            document.getElementById('body').style.backgroundImage = "url('./images/clear.jpg')";
      }
      else if(weatherType.textContent == 'Haze') {
             document.getElementById('weatherCondition').innerHTML = `<i class="fas fa-smog fa-4x" style="color: #ebebeb;"></i>`;
-            document.getElementById('body').style.backgroundImage = "url('https://source.unsplash.com/random?sky,haze')";
+            document.getElementById('body').style.backgroundImage = "url('./images/haze.jpg')";
          } 
      else if(weatherType.textContent == 'Clouds') {
             document.getElementById('weatherCondition').innerHTML = `<i class="fas fa-cloud fa-4x" style="color: #d3d3d3;"></i>`;
-            document.getElementById('body').style.backgroundImage = "url('https://source.unsplash.com/random?sky,clouds')";
+            document.getElementById('body').style.backgroundImage = "url('./images/clouds.jpg')";
          } 
      else if(weatherType.textContent == 'Rain') {
             document.getElementById('weatherCondition').innerHTML = `<i class="fas fa-cloud-showers-heavy fa-4x" style="color: #36a4e4;"></i>`;
-            document.getElementById('body').style.backgroundImage = "url('https://source.unsplash.com/random?sky,rain')";
+            document.getElementById('body').style.backgroundImage = "url('./images/rain.jpg')";
          } 
      else if(weatherType.textContent == 'Snow') {
             document.getElementById('weatherCondition').innerHTML = `<i class="fas fa-snowflake fa-4x"style="color: white;"></i>`;
-            document.getElementById('body').style.backgroundImage = "url('https://source.unsplash.com/random?sky,snow')";
+            document.getElementById('body').style.backgroundImage = "url('./images/snow.jpg')";
          } 
      else if(weatherType.textContent == 'Thunderstorm') {
             document.getElementById('weatherCondition').innerHTML = `<i class="fab fa-cloudflare fa-4x" style="color: #014b75;"></i>`;
-            document.getElementById('body').style.backgroundImage = "url('https://source.unsplash.com/random?sky,thunderstrom')";
+            document.getElementById('body').style.backgroundImage = "url('./images/thunderstrome.jpg')";
          } 
             
     }    
