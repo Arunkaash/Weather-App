@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background: url("./images/bg.jpg");
+    background: url("https://source.unsplash.com/random?mountains");
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
     font-family: 'Nunito', sans-serif;
