@@ -166,6 +166,9 @@ body{
     letter-spacing: 1px;
 }
 @media only screen and (max-width: 480px) {
+    body{
+     height: 100vh;
+}
     .body{
     position: relative;
     width: 250px;
