@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background: url("https://source.unsplash.com/random?mountains");
+    background: url("images/bg.jpg"), url("https://source.unsplash.com/random?mountains");
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
     font-family: 'Nunito', sans-serif;
@@ -23,7 +23,7 @@ body{
     height: 500px;
     margin-top: 100px;
     /* background-color: #95b7dd; */
-    background: url("https://source.unsplash.com/random?sky");
+    background: url("images/clear.jpg"),url("https://source.unsplash.com/random?sky");
     background-position: center;
     overflow: hidden;
    /* glassmorphism */
