@@ -34,7 +34,7 @@ const getCurrentTime = () =>{
         "Dec",
     ];
     var now = new Date();
-    var month = months[now.getMonth()+1];
+    var month = months[now.getMonth()];
     var date = now.getDate();
 
     let hours = now.getHours();
