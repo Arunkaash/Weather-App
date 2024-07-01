@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background: url("images/bg.jpg"),url("https://images.unsplash.com/photo-1628961189347-d3874538bc75?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background: url("images/bg.jpg");
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
     font-family: 'Nunito', sans-serif;
